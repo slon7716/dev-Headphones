@@ -1,0 +1,42 @@
+.whatever-you-get {
+   display: flex;
+   justify-content: center;
+   gap: 17px;
+   margin: 0 auto 88px;
+
+   .accessories {
+      h2 {
+         width: 390px;
+         height: 105px;
+         margin: 69px 0 28px;
+      }
+      
+      .list {
+         .item {
+            width: 292px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #0000001A;
+            padding: 20px 0;
+
+            &:last-child {
+               border: none;
+            }
+
+            .arrow {
+               margin: 0 15px 0 20px;
+   
+               img {
+                  width: 20px;
+                  height: 20px;
+               }
+            }
+   
+            .accessory {
+               font-size: 1.375rem;
+               line-height: 1.4;
+            }
+         }
+      }
+   }
+}
