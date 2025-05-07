@@ -60,12 +60,13 @@ header {
 			.enter {
 				border-radius: 50%;
 				border: none;
-				padding: 10.4px 13.5px;
-				margin: 32px;
+				padding: 12.5px 13.5px;
+				margin: 0 32px;
+				display: flex;
 			}
 
 			.enter {
-				padding: 11.4px 14.5px;
+				padding: 13.5px 14.5px;
 				margin-right: 0;
 			}
 		}
@@ -126,8 +127,6 @@ header {
 			}
 
 			button {
-				font-size: 1.375rem;
-				font-weight: 500;
 				line-height: 1.4;
 				text-transform: uppercase;
 				color: #FF4948;

@@ -28,6 +28,10 @@ textarea {
   color: inherit; // Наследовать цвет от body
 }
 
+a {
+   text-decoration: none;
+}
+
 // img,
 // .icon-svg {
 //   width: 100%;
@@ -56,4 +60,11 @@ h4 {
    font-size: 1rem;
    font-weight: 400;
    line-height: 1.5;
+}
+
+.text,
+button {
+   font-size: 1.375rem;
+   font-weight: 500;
+   line-height: 1.4;
 }
